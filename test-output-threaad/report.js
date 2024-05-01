@@ -1,0 +1,4 @@
+$(document).ready(function() {
+CucumberHTML.timelineItems.pushArray([{"id":"46a9f1f2-040d-4e8b-99c8-d496f604cff5","feature":"Core Product feature","scenario":"Find all the hyperlinks of the Footer links into a CSV file","start":1714577157368,"group":34,"content":"","tags":"","end":1714577175158,"className":"failed"},{"id":"4aa8ee24-147d-401c-b502-2bf3882fd1dc","feature":"Derived Product2 feature","scenario":"Find all the hyperlinks of the Footer links into a CSV file","start":1714577157367,"group":35,"content":"","tags":"","end":1714577174989,"className":"failed"}]);
+CucumberHTML.timelineGroups.pushArray([{"id":34,"content":"Thread[#34,TestNG-PoolService-1,5,main]"},{"id":35,"content":"Thread[#35,TestNG-PoolService-2,5,main]"}]);
+});

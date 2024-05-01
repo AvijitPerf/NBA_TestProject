@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-01T20:55:55 IST" name="Default suite" finished-at="2024-05-01T20:56:22 IST" duration-ms="26790">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRunner@58e1d9d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-05-01T20:55:55 IST" name="Default test" finished-at="2024-05-01T20:56:22 IST" duration-ms="26790">
+      <class name="parallel.ParallelRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:parallel.ParallelRunner@58e1d9d]" started-at="2024-05-01T20:55:55 IST" name="setUpClass" finished-at="2024-05-01T20:55:57 IST" duration-ms="1415" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7d2c345d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRunner@58e1d9d]" started-at="2024-05-01T20:55:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-01T20:56:15 IST" duration-ms="17922" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Find all the hyperlinks of the Footer links into a CSV file"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Core Product feature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.ArrayIndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index -1 out of bounds for length 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 0
+at parallel.DerivedProduct2Steps.attachFile(DerivedProduct2Steps.java:101)
+at parallel.DerivedProduct2Steps.i_can_write_all_hyperlinks_in_file(DerivedProduct2Steps.java:75)
+at ✽.I can write all hyperlinks in "hyperLinks.csv" file(file:///C:/Users/Avijit%20Das/eclipse-workspace/DemoTesting/VeevaProject/src/test/resources/parallel/CoreProduct.feature:29)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArrayIndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRunner@58e1d9d]" started-at="2024-05-01T20:55:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-01T20:56:14 IST" duration-ms="17749" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Find all the hyperlinks of the Footer links into a CSV file"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Derived Product2 feature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.ArrayIndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index -1 out of bounds for length 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 0
+at parallel.DerivedProduct2Steps.attachFile(DerivedProduct2Steps.java:101)
+at parallel.DerivedProduct2Steps.i_can_write_all_hyperlinks_in_file(DerivedProduct2Steps.java:75)
+at ✽.I can write all hyperlinks in "hyperLinks.csv" file(file:///C:/Users/Avijit%20Das/eclipse-workspace/DemoTesting/VeevaProject/src/test/resources/parallel/DerivedProduct2.feature:14)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArrayIndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:parallel.ParallelRunner@58e1d9d]" started-at="2024-05-01T20:56:15 IST" name="tearDownClass" finished-at="2024-05-01T20:56:22 IST" duration-ms="7377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- parallel.ParallelRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
